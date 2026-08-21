@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FrostByte | About</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+</head>
+<body>
+<div id="particles-js"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 2 },
+    color: { value: "#3090ff" },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#3090ff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      speed: 1.5
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "grab"
+      },
+      onclick: {
+        enable: true,
+        mode: "repulse"
+      }
+    },
+    modes: {
+      grab: {
+        distance: 150,
+        line_linked: { opacity: 0.6 }
+      },
+       repulse: {
+        distance: 150,
+        duration: 0.5
+      },
+    }
+  }
+});
+</script>
+
+
+<div class="sidenav">
+    <img src="logo.svg"></img>
+    <a href="index.html">Home</a>
+    <a class="active" href="about.html">About Us</a>
+    <a href="news/update.html">News & Updates</a>
+    <a href="awards.html">Awards</a>
+    <a href="sponsors.html">Sponsors</a>
+    <p>Website By: Isaiah-A226</p>
+</div>
+    <main>
+        <h1>About Us.</h1>
+        <div class="team">
+          <img src="cad.png" class="animated"></img>
+          <p class="text">Every year a new challenge is released, and our designers begin prototyping a bot. Team members use computer aided design programs like Onshape and Solidworks to bring inspiration to life.</p>
+        </div>
+
+        <div class="team">
+          <img src="mechanics.png" class="animated"></img>
+          <p class="text">Challenge received, design in place, next up our mechanics begin building the year’s competition robot. Parts sourced from Gobuilda and Rev come together as a unique machine capable of crushing the competition.</p>
+        </div>
+
+        <div class="team">
+          <img src="wiring.png" class="animated"></img>
+          <p class="text">No robot can enter the challenge arena without power. This team uses their essential wiring skills to bridge the components of our two suppliers into a seamless system of powerful drive motors, multi directional wheels, intake and shooter mechanisms.</p>
+        </div>
+
+        <div class="team">
+          <img src="coding.png" class="animated"></img>
+          <p class="text">Our coders work hard behind the scenes programming autonomous and tele-op modes. Java, Python, HTML, Pedro pathing, API, optical sensors, these are the tools that power our machine.</p>
+        </div>
+
+        <div class="team">
+          <img src="driving.png" class="animated"></img>
+          <p class="text">Every robot needs a boss. On competition day our four man drive teams are at center stage. A pair of drivers, a human player, and drive coach stay focused under pressure. Working with our alliance partners to execute play with an attitude of gracious professionalism….and a desire to win!</p>
+        </div>
+
+        <div class="team">
+          <img src="speaking.png" class="animated"></img>
+          <p class="text">Not everything is about the nuts and bolts. We also inform our local communities of the amazing opportunities FIRST has to offer young people. Outreach and fundraising play a vital role in recruiting new members.  A team portfolio is built to inform our judges about our building process, and each team member speaks to a panel of judges at competition describing their roles.  Visiting local leaders in technology industries also gives our students insight into future career paths. </p>
+        </div>
+
+    </main>
+</body>
+</html>

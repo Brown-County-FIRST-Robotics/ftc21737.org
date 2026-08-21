@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #1C1C1C;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: transparent;
+}
+
+header {
+    background: #FFFFFF;
+    color: #000000;
+    padding: 5px 0;
+}
+
+img {
+    max-width: 60%;
+    display: block;
+    margin-left: 390px;
+    margin-right: auto;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+a {
+    color: #00a0FF;
+    margin-left: 390px;
+}
+
+.button {
+    font-size: 18px;
+    color: #C7C4C4;
+    border-radius: 6px;
+    float: left;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    background-color: #0094B0;
+    margin-left: 390px;
+}
+
+.button:hover {
+    padding: 4px 4px 4px 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #0094B0;
+}
+
+nav ul {
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #b00000, #FF751F)
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 35px;
+    margin-left: 0px;
+    color: #000000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+h1 { 
+    text-align: left;
+    font-size: 37px;
+    margin-top: 80px;
+    margin-left: 390px;
+    color: #C7C4C4;
+}
+h2 { 
+    text-align: left;
+    font-size: 20px;
+    margin-left: 430px;
+    color: #C7C4C4;
+}
+
+ul li p{
+    list-style-type: none;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+p { 
+    text-align: left;
+    color: #C7C4C4;
+    max-width: 60%;
+    display: block;
+    margin-left: 390px;
+    font-size: 17px;
+}
+
+
+.team {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.team img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out; 
+}
+.team:hover img {
+  transform: rotateY(180deg);
+}
+.team p {
+    margin-left: 15px;
+    margin-right: 30px;
+    transform: translateX(100vw);
+    transition: transform 0.75s ease-in-out;
+}
+.team:hover p {
+    transform: translateX(0);
+}
+
+
+
+
+.video {
+    max-width: 74%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sidenav {
+  height: calc(100% - 20px);
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #313131;
+  overflow-x: hidden;
+
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 390px;
+}
+
+
+.tinyPicture {
+        max-height: 140px;
+        min-height: 125px;
+        max-width: 225px;
+        margin-left: auto;
+        border-radius: 5px;
+}
+
+.card {
+    margin: 5px 5px 5px 5px;
+    width: 250px;
+    height: 270px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+.card h3 { 
+    text-align: left;
+    margin-left: 10px;
+    color: #C7C4C4;
+    text-decoration: none;
+}
+.card a {
+    text-align: left;
+    margin-left: 10px;
+    color: #C7C4C4;
+    text-decoration: none;
+}
+
+.card p { 
+  color: #C7C4C4;
+  margin-left: 10px; 
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px #3090FF;
+    transition: 0.5s;
+}
+
+
+
+
+.sidenav a {
+  margin: 4px;
+  padding: 2px 8px 2px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #C7C4C4;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav p {
+  margin: 4px;
+  margin-top: auto;
+  padding: 2px 8px 2px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+}
+
+.sidenav img {
+  float: left;
+  margin: 0px 0px 10px 0px;
+  max-width: 50%;
+  padding: 6px 50% 10px 16px;
+  background: rgba(255, 255, 255, 0); 
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: rgba(0, 25, 50, 0.25);
+}
+.sidenav a.active {
+  color: #f1f1f1;
+  background-color: rgba(0, 100, 200, 0.25);
+}
+
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: block;
+}
+
+
+@media screen and (orientation: portrait) {
+  body {
+    background-color: #1C1C1C;
+  }
+  .container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+
+  main {
+    margin: 20px 15px;
+    margin-left: 0;
+    max-width: 100%;
+  }
+   
+  img {
+    margin-left: auto;
+  }
+
+  .sidenav {
+    position: relative;
+    width: calc(100% - 20px);
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .sidenav img {
+    float: none;
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 40%;
+    padding: 0;
+  }
+
+  .sidenav a {
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 18px;
+    margin: 2px 20px;
+  }
+
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+    color: #C7C4C4;
+  }
+  h2 { 
+    text-align: left;
+    font-size: 28px;
+    margin-left: 40px;
+    color: #C7C4C4;
+  }
+  .indented {
+   margin-left: 40px;
+  }
+
+  p {
+    margin: 0 0 15px 0;
+    max-width: 100%;
+    font-size: 25px;
+  }
+  a {
+    margin: 0 0 15px 0;
+    max-width: 100%;
+  }
+
+  .button {
+    float: none;
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FrostByte | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 2 },
+    color: { value: "#3090ff" },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#3090ff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      speed: 1.5
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "grab"
+      },
+      onclick: {
+        enable: true,
+        mode: "repulse"
+      }
+    },
+    modes: {
+      grab: {
+        distance: 150,
+        line_linked: { opacity: 0.6 }
+      },
+       repulse: {
+        distance: 150,
+        duration: 0.5
+      },
+    }
+  }
+});
+</script>
+
+<div class="sidenav">
+    <img src="logo.svg"></img>
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="news/update.html">News & Updates</a>
+    <a href="awards.html">Awards</a>
+    <a href="sponsors.html">Sponsors</a>
+    <p>Website By: Isaiah-A226</p>
+</div>
+
+    <main>
+        <h1>FrostByte Robotics 21737.</h1>
+        <p>Frostbyte is a dedicated team of middle and high school students focused on innovation and constant improvement. We’re committed to building smarter robots, sharpening our skills, and becoming a stronger competitor in each FTC season. Our coaches seek to bring cutting edge knowledge to our students and give them the tools needed to succeed in robotics competitions and future careers. </p>
+    </main>
+</body>
+</html>

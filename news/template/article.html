@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FrostByte | Updates</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.svg">
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="template/md-style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nord.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("pre code:not([class])").forEach(el => {
+        el.classList.add("nohighlight");
+      });
+    });
+  </script>
+</head>
+<body>
+<div id="particles-js"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 2 },
+    color: { value: "#3090ff" },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#3090ff",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      speed: 1.5
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: true,
+        mode: "grab"
+      },
+      onclick: {
+        enable: true,
+        mode: "repulse"
+      }
+    },
+    modes: {
+      grab: {
+        distance: 150,
+        line_linked: { opacity: 0.6 }
+      },
+       repulse: {
+        distance: 150,
+        duration: 0.5
+      },
+    }
+  }
+});
+</script>
+
+<div class="sidenav">
+    <img src="../logo.svg"></img>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About Us</a>
+    <a class="active" href="update.html">News & Updates</a>
+    <a href="../awards.html">Awards</a>
+    <a href="../sponsors.html">Sponsors</a>
+    <p>Website By: Isaiah-A226</p>
+</div>
+    <main>
+        <div class="markdown-body">
+[[code]]
+        </div>
+    </main>
+</body>
+</html>
