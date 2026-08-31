@@ -11,6 +11,12 @@ main {
     background-color: transparent;
 }
 
+.wish-list {
+  margin-left: 390px;
+  margin-right: 50px;
+  height: 100%;
+}
+
 header {
     background: #FFFFFF;
     color: #000000;
